@@ -10,6 +10,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: setup npm
+        uses: actions/setup-node@v4
+        
       - name: Install dependencies
         run: |
             pwd
