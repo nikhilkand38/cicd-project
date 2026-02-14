@@ -23,9 +23,7 @@ jobs:
 
       - name: Package
         run: npm run package
-  
-  docker:
-    steps: 
+ 
       - name: Install docker
         run: |
             sudo apt update
