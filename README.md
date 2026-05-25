@@ -50,7 +50,7 @@ Push Image to Docker Hub
 # 📂 Project Structure
 
 ```
-cicd-project/
+nodejs-automation/
 │
 ├── .github/
 │   └── workflows/
